@@ -8,3 +8,4 @@ def roll
   return numslist.shuffle
 end
 
+roll
