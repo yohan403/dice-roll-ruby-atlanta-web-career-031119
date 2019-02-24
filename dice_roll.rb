@@ -12,4 +12,5 @@ def roll
   rand_index = rand 0..5
   return array[rand_index]
 end
+
 roll
