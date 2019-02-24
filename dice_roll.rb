@@ -4,5 +4,5 @@
 
 def roll
   numslist = (1..6).to_a
-  return range.shuffle
+  return numslist.shuffle
 end
