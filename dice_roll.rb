@@ -8,7 +8,7 @@
 
 
 def roll
-  array = Array.new(1..6)
+  array = Array.new
   puts array
 end
 roll
