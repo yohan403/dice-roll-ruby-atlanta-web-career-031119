@@ -3,8 +3,7 @@
 # Feel free to google "how to generate a random number in ruby"
 
 def roll
-  numslist = (1..6).to_a
-  return rand numslist
+  return rand
 end
 
 roll
