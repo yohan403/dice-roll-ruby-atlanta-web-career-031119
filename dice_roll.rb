@@ -4,7 +4,6 @@
 
 def roll
   numslist = (1..6).to_a
-  puts numslist
   return numslist.shuffle
 end
 
