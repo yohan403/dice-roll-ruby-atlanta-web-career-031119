@@ -4,5 +4,6 @@
 
 def roll
   numslist = (1..6).to_a
+  binding.pry
   return numslist.shuffle
 end
