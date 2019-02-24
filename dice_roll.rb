@@ -4,7 +4,7 @@
 
 def roll
   numslist = (1..6).to_a
-  return numslist.shuffle
+  return rand numslist
 end
 
 roll
