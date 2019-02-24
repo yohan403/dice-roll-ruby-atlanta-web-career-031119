@@ -8,7 +8,8 @@
 
 
 def roll
-  array = Array.new
-  puts array
+  array = (1..6).to_a
+  rand_index = rand 0..5
+  return array[rand_index]
 end
 roll
